@@ -1,0 +1,57 @@
+@mixin hr-style {
+    width: 70px;
+    height: 4px;
+    border: 0px;
+    color: #dcb14a;
+    background-color: #dcb14a;
+    margin-left: 0;
+}
+
+@mixin grey-p {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+@mixin section-head {
+    font-size:40px;
+    font-weight: bold;
+    transition: 0.5s;
+
+    &:hover {
+        color:#dcb14a ;
+        cursor: pointer;
+    }
+}
+
+@mixin txt-p {
+    color: black;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+@mixin section-btn {
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: black;
+        color: white; 
+    }
+
+}
+
+
+@mixin slick-slider-photo {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

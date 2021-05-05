@@ -1,0 +1,100 @@
+article {
+    height: 60vh;
+    font-family: 'Roboto', sans-serif;
+    .rev_slider {
+        width: 100%;
+        margin-left:5px ;
+        
+        .slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 350px;
+        .photo-1 {
+        background: url(../img/1_1-300x300.jpg);
+        @include slick-slider-photo
+    }
+        .photo-2 {
+            background: url(../img/1_2-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-3 {
+            background: url(../img/1_3-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-4 {
+            background: url(../img/1_4-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-5 {
+            background: url(../img/1_5-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-6 {
+            background: url(../img/1_6-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-7 {
+            background: url(../img/1_7-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .photo-8 {
+            background: url(../img/1_8-300x300.jpg);
+            @include slick-slider-photo
+        }
+
+        .name {
+            a {
+               @include section-head
+               color: black;
+               font-size: 18px;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+        }
+        .price {
+            p{
+                @include grey-p
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .slick-next {
+        float: right;
+        right: 0;
+        z-index: 1;
+        content: '';
+    }
+
+    .slick-prev {
+        float: left;
+        left: 0;
+        z-index: 1;
+        
+    }
+
+    .slick-next::before {
+        color: black;
+        content: '>';
+    }
+
+    .slick-prev::before {
+        color: black;
+        content: '<';
+        font-size: 20px;
+    }
+    }
+}
+
+
+

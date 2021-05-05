@@ -1,0 +1,144 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .search-bar {
+        display: none;
+    }
+
+    .logo {
+        max-width: 50%;
+
+    }
+
+    .nav-bar {
+        max-width: 50%;
+
+        a {
+            i {
+                max-width: 50%;
+            }
+
+        }
+
+        .fa-user {
+            display: none;
+        }
+
+        .fa-heart {
+            display: none;
+        }
+    }
+
+    .slick-next {
+        margin-right: 5px;
+    }
+
+    .section-part {
+            .big-img {
+                max-width: 400px;
+            }
+        
+
+    }
+
+
+    .advertise {
+        #countdown {
+            font-size: 60px !important;
+        }
+        .time_measure {
+            max-width: 400px;
+        }
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .search-bar {
+        display: none;
+    }
+
+    .nav-bar {
+        .fa-user {
+            display: none;
+        }
+
+        .fa-heart {
+            display: none;
+        }
+    }
+
+    
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .search-bar {
+        display: block;
+    }
+
+    .nav-bar {
+        .fa-user {
+            display: block;
+        }
+
+        .fa-heart {
+            display: block;
+        }
+
+        .fa-search {
+            display: none;
+        }
+    }
+
+    section {
+        .img-part {
+            max-width: 70%;
+        }
+        .txt-part {
+            max-width: 30%;
+        }
+       
+    }
+
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .carousel-inner {
+        .carousel-caption {
+            h3 {
+                width: 30%;
+            }
+
+            .last_p {
+                width: 40%;
+            }
+        }
+
+        
+    }
+
+
+    section {
+        .img-part {
+            max-width: 50%;
+        }
+        .txt-part {
+            max-width: 50%;
+        }
+       
+    }
+
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}

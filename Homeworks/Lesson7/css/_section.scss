@@ -1,0 +1,46 @@
+section {
+    min-height: 150vh;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    .bg-img-right {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    
+    .section-part {
+        margin: 50px 0 ;
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .img-part{
+                transition: 0.5s;
+            }
+            .img-part:hover{
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+            .txt-part {
+                .grey-p {
+                    @include grey-p
+                }
+                h3 {
+                    @include section-head
+                }
+                hr {
+                    @include hr-style
+                }
+                .txt-p {
+                    font-weight: 300;
+                    @include txt-p
+                }
+                button {
+                    @include section-btn
+                }
+            }
+        }
+        
+    }
+}
+

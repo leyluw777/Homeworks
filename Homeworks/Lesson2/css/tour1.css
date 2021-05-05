@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 1536px;
+}
+
+.head {
+    height: 500px;
+    background: url(../img/geneva.jpg);
+    background-position: 35% 62%;
+}
+
+.headertext {
+    text-align: center;
+    padding-top: 150px;
+    color: azure;
+    font-size: 20px;
+}
+
+.headertext p {
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+    padding: 30px 0 0 0;
+}

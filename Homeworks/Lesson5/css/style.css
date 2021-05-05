@@ -1,0 +1,686 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+.top-part {
+    background-color: #1baaa0;
+    height: 40px;
+}
+
+.top-part-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-part-links a {
+    text-decoration: none;
+    color: white;
+    margin: 6px 0 0 15px ; 
+}
+
+.top-part-links a:hover {
+    color: #3bcec4 ;
+}
+
+/* --------- nav-bar ----------- */
+.nav-bar {
+    background-color: #d1eeec;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+}
+
+.nav-bar-items ul {
+    margin-bottom: 0;
+}
+
+.nav-bar-items ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.nav-bar-items ul li a {
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-bar-items ul li a:hover {
+    text-decoration: none;
+    color: #e21c3d;
+    transition: 0.3s;
+}
+
+.start-btn {
+    padding: 10px 20px;
+    background-color: #1baaa0 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.start-btn:hover {
+    background-color: #01554d;
+}
+
+
+/* --------- content-part of header ----------- */
+.head-content {
+    margin-top: 2px;
+    background-color: #d1eeec;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 50px 0;
+    align-items: center;
+
+}
+
+.search-inpt p {
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+}
+
+.search-inpt form {
+    margin-top: 40px;
+    width: 600px;
+}
+
+.search-inpt input {
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    width: 80%;
+    outline: none;
+}
+
+.search-inpt button {
+    position: relative;
+    right: 100px;
+    bottom: 0px;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1baaa0;
+    color: white;
+    width: 15%;
+    transition: transform 0.5s;
+}
+
+.search-inpt button:hover {
+    background-color: #01554d;
+    transform: scale(1.03);
+}
+
+.search-inpt input:active {
+    border: none;
+}
+
+
+/* --------- section1 part ----------- */
+.section-part {
+    margin-top: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-of-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-of-section h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.boxes-row-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 0 20px 0;
+    align-items: center;
+}
+
+
+.boxes-row-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 23%;
+    height: 200px;
+    border-radius: 10px ;
+    padding: 40px 0 0 20px;
+}
+
+
+.box5, .box6 {
+    margin: 0 15px;
+}
+
+.box1, .box4, .box5, .box6 {
+    background-color: #002b44;
+    color: white;
+}
+
+.box2, .box3 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.keyicons {
+    margin-bottom: 10px;
+    background-color: rgba(209, 238, 236, 0.2);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.arrowicons {
+    float: right;
+    margin-right: 40px;
+    background-color: #1baaa0 ;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+.rounded-bg {
+    background-image: url(../img/devider.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 6em;
+}
+
+/* --------- section2 part ----------- */
+.section-two {
+    background-color:#edf8f8;
+    padding: 80px 0;
+}
+
+
+.section-two-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.text-part {
+    width: 47%;
+    height:100%;
+}
+
+.jobcards-part {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.jobcard-1, .jobcard-2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card1, .card2, .card3, .card4 {
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+}
+
+.check-icon {
+    width: 10%;
+    height: 100%;
+}
+
+.check-icon i {
+    padding: 5px;
+    background-color: #ade0dd;
+    border-radius: 50% 50%;
+    color:#24ada4;
+}
+
+.adv-of-jobs {
+    font-size: 25px;
+    color: #24ada4;
+    font-weight: bold;
+}
+
+.jobcards-part p {
+    color: #949797;
+}
+
+.adv-info {
+    width: 85%;
+    height: 100%;
+}
+
+
+
+.card-part  {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-part .jobcards-1, .card-part .jobcards-2  {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-card-1, .job-card-2,  .job-card-3, .job-card-4{
+    width: 47%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 3px 7px #0000000a;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.job-card-1:hover, .job-card-2:hover,  .job-card-3:hover, .job-card-4:hover{
+    transform: scale(1.05);
+}
+
+
+.job-card-1 h6, .job-card-2 h6,  .job-card-3 h6, .job-card-4 h6{
+    margin: 30px 0 20px 0;
+    font-weight: bold;
+}
+
+.job-card-1 button, .job-card-2 button,  .job-card-3 button, .job-card-4 button {
+    padding: 15px 10px ;
+    margin-top: 10px;
+    background-color: #24ada4;
+    border: none;
+    border-radius: 5px ;    
+    color: white;
+    transition: 0.3s;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transform: transition 0.3s;
+}
+
+.job-card-1 button:hover, .job-card-2 button:hover,  .job-card-3 button:hover, .job-card-4 button:hover {
+    background-color:#01554d ;
+}
+
+.job-card-1 p, .job-card-2 p,  .job-card-3 p, .job-card-4 p {
+    color:#949797 ;
+}
+
+
+/* --------- section3 part ----------- */
+.section-three-part {
+    margin: 100px auto;
+    width: 100%;
+    height: 400px;
+    background:linear-gradient(rgba(0, 0, 0, 0.427),rgba(0, 0, 0, 0.5)), url(../img/call2action.jpg);
+    background-position: 70% 45%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-three-part p {
+    width: 60%;
+    margin: 10px 0;
+}
+
+.section-three-part button {
+    margin-top: 10px;
+    padding: 15px 30px ;
+    border: none;
+    border-radius: 5px;
+    background-color:#24ada4 ;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s ;
+}
+
+.section-three-part button:hover {
+    background-color:#01554d ;
+    transform: scale(1.03);
+}
+
+
+/* --------- section4 part ----------- */
+
+.section-four-part h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-four-part .opened-job-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.opened-job-row1, .opened-job-row2  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.opened-job-card1, .opened-job-card2, .opened-job-card3, .opened-job-card4, .opened-job-card5 {
+    width: 32%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 15px 25px 0 #d8efec;
+    border-radius: 10px;
+    padding: 40px 20px;
+}
+
+.key-word-job {  
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:#d1eeec ;
+    color:#949797 ;
+}
+
+.opened-job-card1 h4, .opened-job-card2 h4, .opened-job-card3 h4, .opened-job-card4 h4, .opened-job-card5 h4 {
+    margin: 15px 0 ;
+    font-weight: bold;
+}
+
+
+.location-of-job {
+    margin-right: 10px;
+}
+
+
+.site-and-when {
+    margin-top: 10px;
+}
+
+
+.site-and-when img {
+    background-color: #d1eeec;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.site-and-when span, .location-of-job, .time-of-job {
+    color: #949797;
+}
+
+
+.total_job {
+    width: 32%;
+    height: 220px;
+    border: dashed #ade0dd 2px ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.total_job h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.total_job p {
+    color: #949797;
+}
+
+.total_job button {
+    padding: 10px 15px;
+    margin: 0 auto;
+    background-color: transparent;
+    border:solid #24ada4 2px;
+    border-radius: 5px;
+    color:#24ada4;
+    transition: 0.5s;
+}
+
+.total_job button:hover {
+    transform: scale(1.03);
+    border-color:#01554d ;
+}
+
+/* --------- section5 part ----------- */
+
+.section-five-part {
+    margin: 50px 0;
+    color: black;
+}
+
+.section-five-part h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#head_paragraph {
+    width: 70%;
+    margin: 0 auto;
+    color: #949797;
+    text-align: center;
+}
+
+.news-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row ;
+    margin: 80px 0;
+}
+
+.news-card-1, .news-card-2, .news-card-3 {
+    width: 30%;
+    height: 350px;
+}
+
+.news-card-1 img, .news-card-2 img, .news-card-3 img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tech_word {
+    padding: 0px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-weight: 200;
+}
+
+.news-card-1 h4, .news-card-2 h4, .news-card-3 h4 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.news-cards p {
+    font-size: 10px;
+    color: #949797;
+}
+
+.news-cards a {
+    color: #24ada4;
+}
+
+.news-cards a:hover {
+    text-decoration: none;
+}
+
+
+/* --------- search bar section ----------- */
+.search-bar-section {
+    width: 100%;
+    background:#24ada4 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-bar-section a {
+    padding: 20px;
+    border: solid white 5px;
+    border-radius: 100% ;
+    background: #24ada4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    top: -35px;
+    color: white ;
+    width: 70px;
+    height: 70px;
+}
+
+
+#toplink {
+    transition: 0.5s;
+}
+.search-bar-section a:hover {
+    text-decoration: none;
+    background:#e21c3d ;
+}
+
+.search-bar-section-items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0 70px 0;
+}
+
+.text-div {
+    width: 50%;
+}
+
+.text-div h1 {
+    color: white ;
+    font-size: 50px;
+}
+
+.button-div button {
+    padding: 15px 20px;
+    border: none;
+    background: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    transition: 0.7s;
+}
+
+.button-div button:hover {
+    background: #ade0dd;
+    transform: scale(1.03);
+}
+
+/* --------- footer part ----------- */
+
+.footer {
+    width: 100%;
+    background: #0e132c;
+}
+
+.footer-part {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.logo p {
+    margin: 20px 0 0 0;
+    color: white;
+}
+
+.footer-bar {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bar ul li {
+    list-style: none;
+    margin: 5px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-bar ul li a {
+    color:#949797 ;
+}
+
+.footer-bar ul li a:hover {
+    text-decoration: none;
+}
+
+.footer-bar ul li:first-child {
+    margin-bottom: 10px ;
+    list-style-type: square ;
+    color: white;
+    font-weight: 600;
+}
+
+.footer_rights {
+    padding: 30px;
+}
+
+.footer_rights h6 {
+    text-align: center;
+    margin-bottom: 0;
+    color:#949797;
+}

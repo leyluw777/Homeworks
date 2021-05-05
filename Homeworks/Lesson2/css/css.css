@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 1500px;
+}
+
+.content {
+    height: 843px;
+}
+
+#bgvideo {
+    width: 1500px;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+
+.navbar {
+    height: 100px;
+}
+#littleword{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    color: azure;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#logo {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: azure;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+form {
+    width: 400px;
+    height: 45px;
+    position: absolute;
+    left: 1000px;
+    top: 2px;
+}
+
+.content input {
+    width: 70%;
+    height: 40px;
+    float: left;
+    padding-left: 10px;
+    font-size: 17px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+}
+
+.content button {
+    display: inline-block;
+    width: 20%;
+    height: 44px;
+    background: rgb(95, 158, 160) ;
+    color:azure ;
+    border: none;
+    float: left;
+    border-radius: 0 5px 5px 0;
+    transition-duration: 0.2s;
+} 
+
+button i {
+    width: 30px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+.content button:hover{
+    cursor: pointer;
+    background-color: rgb(27, 90, 94);
+}
+
+input::placeholder {
+    color: grey;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#menu {
+   position: relative;
+   left: 1460px;
+   top: 15px;
+   color: azure;
+   display: inline-block;
+   width: 20px;
+}
+
+#welcome {
+    position: absolute;
+    top: 350px;
+    left: 110px;
+    font-size: 100px;
+    color: azure;
+    background: rgb(95, 158, 160);
+    border-radius: 80px;
+    padding: 30px;
+    width: 1200px;
+    font-family: 'Lora', serif;
+}
+
+.section {
+    background: rgb(95, 158, 160, 0.5) ;
+    padding-bottom: 30px;
+}
+
+.section h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    color: rgb(1, 39, 41);
+    font-family: 'Lora', serif;
+}
+
+.tours {
+    margin-top: 20px;
+}
+
+.tour1, .tour2, .tour3, .tour4 {
+    display: inline-block;
+    height: 750px;
+    width: 700px;
+    margin: 15px;
+    padding: auto;
+}
+
+.tour1 a, .tour2 a, .tour3 a, .tour4 a {
+    position: relative;
+    top: 90px;
+    left: 150px;
+    font-size: 30px;
+    text-decoration: none;
+    background: rgb(95, 158, 160, 0.5) ;
+    padding: 10px 70px;
+    border-radius: 70px;
+    color: azure;
+    transition: 0.5s;
+}
+
+.tour1 a:hover, .tour2 a:hover, .tour3 a:hover, .tour4 a:hover {
+    background: rgb(95, 158, 160) ;
+}
+
+.tour1 video,.tour2 video, .tour3 video, .tour4 video {
+    width: 700px;
+    display: block;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.info {
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: rgb(1, 31, 32);
+    font-weight: 500;
+}
+
+.tourname {
+    padding: 10px;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    font-size: 30px;
+    color:rgb(1, 39, 41) ;
+    font-weight: bold;
+}
+
+
+#link {
+    text-align: center;
+    color: rgb(1, 39, 41);
+    font-size: 50px;
+    text-decoration: none;
+    margin-left: 500px;
+    transition: 0.3s;
+}
+
+#link:hover {
+    color: azure;
+}
+
+.contact{
+    background: url(../img/andreas-m--xu5FvpWvSk-unsplash.jpg);
+    background-size: ;
+    background-position: 24% 56%;
+    height: 600px;
+}
+
+.clientdata {
+    width: 700px !important;
+    height: 500px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.clientdata span {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    font-size: 40px;
+    padding: 20px 245px;
+    background-color: rgb(95, 158, 160, 0.8);
+    color: rgb(1, 39, 41);
+    border-radius: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    
+}
+
+.clientdata p {
+    width: 700px;
+    text-align: center;
+    margin: 40px;
+    height: 50px;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clientdata input {
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+    background-color:azure ;
+    border: none;
+    padding: 5px 5px 5px 10px;
+    font-size: 15px;
+}
+
+
+#message {
+    height: 145px;
+    width: 270px;
+    position: relative;
+    left: 390px;
+    bottom: 175px;
+    padding: 0px;
+    background-color: azure;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#message::placeholder {
+    font-style: italic;
+}
+
+.clientdata button {
+    position: relative;
+    bottom: 120px;
+    width: 170px;
+    padding: 15px 25px;
+    background-color:rgb(95, 158, 160) ;
+    border: none;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+    font-size: 20px;
+    color: azure;
+}
+
+.clientdata button:hover{
+    cursor: pointer;
+    background-color: rgb(1, 39, 41);
+}
+
+
+.infopart {
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    padding: 100px 0 0 0;
+    float: right;
+    margin: 30px;
+    color: rgb(1, 39, 41);
+    
+}
+
+
+.adress, .numbers, .e-adr {
+    width: 600px;
+    height: 50px;
+    margin:10px;
+}
+
+.mainwords {
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.informationpart {
+    position: relative;
+    left: 45px;
+    bottom: 30px;
+    font-size: 20px;
+
+}
+
+.wrkhours {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.hours {
+    letter-spacing: 1px !important;
+    font-style: normal !important;
+}
+
+.time {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.footer {
+    height: 300px;
+    background: rgb(95, 158, 160) ;
+}
+
+
+.contact h2 {
+    color: azure;
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    bottom: 50px;
+    background-color: rgb(95, 158, 160, 0.5);
+    padding:20px 0px;
+}
+.icons i {
+    display: inline;
+    padding: 70px;
+    color: azure;
+    transition: 0.5s;
+}
+
+.icons {
+    position: relative;
+    left: 340px;
+    top: 50px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons i:hover {
+    color: rgb(1, 39, 41) ;
+
+}
+
+audio {
+    position: absolute;
+    top: 750px;
+    left: 30px;
+    width: 250px;
+    
+}

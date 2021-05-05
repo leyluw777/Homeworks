@@ -1,0 +1,68 @@
+.advertise {
+    height: 80vh;
+    width: 100%;
+    background-image: url(../img/h1-countdown.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 100px 0;
+    .adv-txt-part {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+            span {
+                color: red;
+            }
+        }
+        hr {
+            @include hr-style
+        }
+        .adv_txt_p {
+            margin: 0 0 50px 0;
+            color: black;
+            font-size: 17px;
+            line-height: 1.5;
+            font-weight: 300;
+        }
+
+        .countdwn{
+            margin: 0 0 40px 0;
+            #countdown {
+                font-size: 70px;
+                color: black;
+            }
+            display: flex;
+            flex-direction: column;  
+            justify-content: space-evenly;
+            .time_measure {
+                display: flex;
+                justify-content: space-between;
+                width: 470px;
+                flex-wrap: wrap;
+                span {
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+        }
+        
+        button {
+            width: 150px;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            transition: 0.2s;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+    }
+}
