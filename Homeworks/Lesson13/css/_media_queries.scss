@@ -1,0 +1,98 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    // header {
+    //     nav {
+    //         .collapse-menu {
+    //             width: 100% !important;
+    //             position:fixed;
+    //             right: -600px  !important;
+    //             #close-collapse-menu {
+    //                 float: right;
+
+    //             }
+               
+    //         }
+    //       }
+    // }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    header {
+        .header-content {
+            .head-center {
+                h1 {
+                    font-size: 6vw;
+                }
+            }
+            .head-bottom {
+                 .head-btm-1, .head-btm-2, .head-btm-3 {
+                p {
+                   &:first-child {
+                       font-size: 17px;
+                       sup {
+                        font-size: 10px;
+                       }
+                   }
+                    &:last-child {
+                        font-size: 50px;
+                    }
+                }
+            }
+            }
+           
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+   header {
+    //    nav {
+    //      .collapse-menu {
+    //          width: 100% !important;
+    //          .collapse-menu-part, .collapse-menu-icons  {
+    //              width: 30% !important;
+    //          }
+            
+    //      }
+    //    }
+    .header-content {
+        .head-center {
+            h1 {
+                font-size: 6vw;
+            }
+        }
+        .head-bottom {
+             .head-btm-1, .head-btm-2, .head-btm-3 {
+            p {
+               &:first-child {
+                   font-size: 2vw;
+                   sup {
+                    font-size: 1vw;
+                   }
+               }
+                &:last-child {
+                    font-size: 5vw;
+                }
+            }
+        }
+        }
+       
+    }
+
+   }
+
+  
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
