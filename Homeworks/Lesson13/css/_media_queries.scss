@@ -1,21 +1,20 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    // header {
-    //     nav {
-    //         .collapse-menu {
-    //             width: 100% !important;
-    //             position:fixed;
-    //             right: -600px  !important;
-    //             #close-collapse-menu {
-    //                 float: right;
+    header {
+        nav {
+            .navbar-link {
+                display: none;
+            }
+          }
+    }
 
-    //             }
-               
-    //         }
-    //       }
-    // }
-
-    
+    section {
+        .contact-right {
+           input {
+               max-width: 450px;
+           }
+        }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -51,19 +50,66 @@
            
         }
     }
+
+    section {
+        .stories-content {
+            .stories-part-1 {
+                
+                .slick_slider-2 {
+                   
+                    .slide_2 {
+                       
+                        max-width: 500px;
+                        .img-slide-2 {
+                            max-width: 100%;
+                            img {
+                                max-width: 400px;
+                                height: 250px;
+                                object-fit: cover;
+                                
+                            }
+                        }
+
+                        
+                            
+                        
+                    }
+                }
+            }
+
+           
+
+            .stories-part-3 {
+                .slick_slider-3 {
+                    max-width: 100%;
+                    .slide_3 {
+                        .img-slide-3 {
+                            max-width: 100%;
+                        }
+                    }
+                }
+           }
+        }
+    }
+
+    section {
+        .contact-right {
+           form {
+               
+                    max-width: 90%;
+               input {
+                   width: 100%;
+               }
+               
+              
+           }
+        }
+    }
 }
 
 @media only screen and (max-width: 992px) {
    header {
-    //    nav {
-    //      .collapse-menu {
-    //          width: 100% !important;
-    //          .collapse-menu-part, .collapse-menu-icons  {
-    //              width: 30% !important;
-    //          }
-            
-    //      }
-    //    }
+  
     .header-content {
         .head-center {
             h1 {
@@ -91,6 +137,80 @@
    }
 
   
+   section {
+       .stories-content {
+           .stories-part-1 {
+               .slick_slider-2 {
+                   .slide_2 {
+                       height: 100%;
+                       
+                       .img-slide-2 {
+                           max-width: 100%;
+                           
+                           .img-slick-slider-2 {
+                               max-width: 100%;
+                               max-height: 100%;
+                               object-fit: cover;
+                              
+                           }
+                       }
+                      
+                   }
+               }
+           }
+
+           .stories-part-2 {
+               width: 100%;
+             
+               flex-wrap: wrap;
+               .part2-1, .part2-2 {
+                   width: 95% !important;
+                   max-height: auto !important;
+                   .stories-part2-img1, .stories-part2-img2 {
+                        img {
+                            width: 100%;
+                            max-height: 400px !important;
+                        }
+                   }
+               }
+           }
+
+           .stories-part-3 {
+                .slick_slider-3 {
+                    max-width: 100%;
+                    .slide_3 {
+                        .img-slide-3 {
+                            max-width: 100%;
+                        }
+                    }
+                }
+           }
+       }
+   }
+
+   section {
+    .contact-right {
+       form {
+           
+                max-width: 90%;
+           input {
+               width: 100%;
+           }
+           
+          
+       }
+    }
+}
+
+footer {
+    .language-col, .list1-col, .list2-col, .list3-col {
+        justify-content: flex-start !important;
+        margin-bottom: 15px;
+        ul {
+            margin-top: 0 !important;
+        }
+    }
+}
   
 }
 

@@ -33,12 +33,13 @@ function openNav() {
     document.getElementById("collapse-menu").style.height = "100vh";
     document.getElementById("collapse-menu").style.marginRight = "400px";
     document.getElementById("collapse-menu").style.overflowY = "scroll";
+    document.querySelector("body").style.overflow = "hidden";
   }
   
   function closeNav() {
     document.getElementById("collapse-menu").style.transform = "translatex: -400px";
     document.getElementById("collapse-menu").style.marginRight = "-400px";
-    
+    document.querySelector("body").style.overflowY = "scroll";
   }
 
 
@@ -87,7 +88,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     arrows:true,
     centerMode: true,
-    centerPadding: '20%',
+    centerPadding: '0 90px 40px 0',
     
     responsive: [
       {
@@ -137,4 +138,208 @@ $(document).ready(function(){
   
   
 
+});
+
+
+$(document).ready(function(){
+  $('.slick_slider-2').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    nextArrow: '.slick-nxt-btn',
+    prevArrow: '.slick-prv-btn',
+
+    // centerMode: true,
+    // centerPadding: "-20%",
+    
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          
+    
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+         
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          centerMode: true,
+          centerPadding: '-10%',
+        }
+      }
+     
+    ]
+  });
+
+  
+  
+
+});
+
+
+$(document).ready(function(){
+  $('.slick_slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows:true,
+    centerMode: true,
+    centerPadding: '0 90px 40px 0',
+    
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: '0',
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '0',
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '0',
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          centerPadding: '0',
+          arrows: false
+        }
+      }
+     
+    ]
+  });
+
+  
+  
+
+});
+
+
+$(document).ready(function(){
+  $('.slick_slider-3').slick({
+    infinite: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    arrows: false,
+    centerMode: true,
+    centerPadding: "7%",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+         centerMode: true,
+    centerPadding: "2%",
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+         
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+         
+        }
+      }
+     
+    ]
+  });
+
+  
+  
+
+});
+
+
+// var docWidth = document.documentElement.offsetWidth;
+
+// [].forEach.call(
+//   document.querySelectorAll('*'),
+//   function(el) {
+//     if (el.offsetWidth > docWidth) {
+//       console.log(el);
+//     }
+//   }
+// );
+
+$("#show-p").hide();
+    $("#show-checkdiv").hide();
+    $("#show-btn").hide();
+    $("#show-lastp").hide();
+
+$(document).ready(function(){
+  $("#focus-input").focusin(function(){
+    document.querySelector(".increase-height").style.height = "auto";
+    $("#show-p").show("slow");
+    $("#show-checkdiv").show("fast");
+    $("#show-btn").show();
+    $("#show-lastp").show();
+  });
 });
