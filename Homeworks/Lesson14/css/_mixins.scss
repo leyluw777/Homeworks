@@ -1,0 +1,9 @@
+@mixin navbar-link-style {
+    text-decoration: none;
+    color: #686868 !important;
+    transition: .4s;
+
+    &:hover {
+        color: #111111 !important;
+    }
+}

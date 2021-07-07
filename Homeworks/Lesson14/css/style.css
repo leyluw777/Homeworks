@@ -1,0 +1,1474 @@
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInUpSD {
+  animation-name: fadeInUpSD;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translatex(35px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translatex(-35px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.slick-active h1, .slick-active p {
+  animation-name: fadeInUpSD;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+.slick-active h1, .slick-active p {
+  animation-name: fadeInUpSD;
+  animation-duration: 1s;
+  opacity: 1;
+}
+
+.slick-slider:hover .slick-next {
+  transform: translate(0, 0);
+  animation-name: fadeInRight;
+  animation-duration: 0.3s;
+  opacity: 1;
+}
+
+.slick-slider:hover .slick-prev {
+  transform: translate(0, 0);
+  animation-name: fadeInLeft;
+  animation-duration: 0.3s;
+  opacity: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  nav .navbar-collapse {
+    position: relative !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav .navbar-collapse {
+    position: absolute;
+    bottom: 0;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    z-index: 10;
+  }
+  nav .navbar-nav .nav-item {
+    border-bottom: 1px solid #eeeeee;
+  }
+  nav .navbar-nav .shop-item:hover .shopItem-content {
+    display: none !important;
+  }
+  nav .navbar-nav .categ-item:hover .categItem-content {
+    display: none !important;
+  }
+  nav .navbar-nav .pages-item:hover .pages-content {
+    display: none !important;
+  }
+  header .slick-slider .slick-prev:before, header .slick-slider .slick-next:before {
+    font-size: 5vw !important;
+  }
+  header .slick-slider .slick-prev .slide, header .slick-slider .slick-next .slide {
+    max-width: 100% !important;
+  }
+  header .slick-slider .slick-prev .slide h1, header .slick-slider .slick-next .slide h1 {
+    font-size: 5vw !important;
+  }
+  section .head-section .right-side-head {
+    justify-content: flex-end !important;
+  }
+  footer .left-foot ul {
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+  }
+  footer .left-foot ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #3a3a3a;
+    color: #aaaaaa;
+  }
+  footer .left-foot ul li a {
+    color: #aaaaaa;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body nav,
+* nav {
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  position: fixed !important;
+  top: 0;
+  z-index: 15;
+}
+
+body nav .navbar-collapse,
+* nav .navbar-collapse {
+  z-index: 20;
+}
+
+body nav .mid-side-bar,
+* nav .mid-side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body nav .mid-side-bar img,
+* nav .mid-side-bar img {
+  width: 35%;
+  cursor: pointer;
+}
+
+body nav .right-side-bar,
+* nav .right-side-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+body nav .right-side-bar a,
+* nav .right-side-bar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #686868 !important;
+  transition: .4s;
+}
+
+body nav .right-side-bar a:hover,
+* nav .right-side-bar a:hover {
+  color: #111111 !important;
+}
+
+body nav .right-side-bar a sup,
+* nav .right-side-bar a sup {
+  color: #dc9814;
+}
+
+body nav .right-side-bar span,
+* nav .right-side-bar span {
+  cursor: pointer;
+  text-decoration: none;
+  color: #686868 !important;
+  transition: .4s;
+}
+
+body nav .right-side-bar span:hover,
+* nav .right-side-bar span:hover {
+  color: #111111 !important;
+}
+
+body nav .navbar-nav .nav-item,
+* nav .navbar-nav .nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+body nav .navbar-nav .nav-item a,
+* nav .navbar-nav .nav-item a {
+  text-decoration: none;
+  color: #686868 !important;
+  transition: .4s;
+}
+
+body nav .navbar-nav .nav-item a:hover,
+* nav .navbar-nav .nav-item a:hover {
+  color: #111111 !important;
+}
+
+body nav .navbar-nav .nav-item span,
+* nav .navbar-nav .nav-item span {
+  font-size: 20px;
+  color: #686868;
+}
+
+body nav .navbar-nav .shop-item,
+* nav .navbar-nav .shop-item {
+  position: relative;
+  transition: .5s;
+}
+
+body nav .navbar-nav .shop-item .shopItem-content,
+* nav .navbar-nav .shop-item .shopItem-content {
+  position: absolute;
+  top: 45px;
+  background: #282828;
+  width: 450px;
+  height: 600px;
+  display: none;
+}
+
+body nav .navbar-nav .shop-item .shopItem-content p,
+* nav .navbar-nav .shop-item .shopItem-content p {
+  color: #eeeeee;
+}
+
+body nav .navbar-nav .shop-item .shopItem-content li a,
+* nav .navbar-nav .shop-item .shopItem-content li a {
+  color: #a0a0a0;
+}
+
+body nav .navbar-nav .shop-item .shopItem-content li a:hover,
+* nav .navbar-nav .shop-item .shopItem-content li a:hover {
+  color: white !important;
+}
+
+body nav .navbar-nav .shop-item .shopItem-content li a sup,
+* nav .navbar-nav .shop-item .shopItem-content li a sup {
+  background: white;
+  color: #282828;
+  border-radius: 5px;
+  padding: 1px;
+  font-size: 10px;
+}
+
+body nav .navbar-nav .shop-item:hover .shopItem-content,
+* nav .navbar-nav .shop-item:hover .shopItem-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+body nav .navbar-nav .shop-item:hover .shopItem-content p,
+* nav .navbar-nav .shop-item:hover .shopItem-content p {
+  margin: 15px 0 5px 0;
+}
+
+body nav .navbar-nav .categ-item,
+* nav .navbar-nav .categ-item {
+  position: relative;
+}
+
+body nav .navbar-nav .categ-item .categItem-content,
+* nav .navbar-nav .categ-item .categItem-content {
+  display: none;
+  position: absolute;
+  top: 45px;
+  background: white;
+  width: auto;
+  min-height: 200px;
+  padding: 20px;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-1,
+body nav .navbar-nav .categ-item .categItem-content .categ-2,
+body nav .navbar-nav .categ-item .categItem-content .categ-3,
+body nav .navbar-nav .categ-item .categItem-content .categ-4,
+body nav .navbar-nav .categ-item .categItem-content .categ-5,
+* nav .navbar-nav .categ-item .categItem-content .categ-1,
+* nav .navbar-nav .categ-item .categItem-content .categ-2,
+* nav .navbar-nav .categ-item .categItem-content .categ-3,
+* nav .navbar-nav .categ-item .categItem-content .categ-4,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 {
+  width: 170px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #a0a0a0;
+  padding: 20px;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-1 img,
+body nav .navbar-nav .categ-item .categItem-content .categ-2 img,
+body nav .navbar-nav .categ-item .categItem-content .categ-3 img,
+body nav .navbar-nav .categ-item .categItem-content .categ-4 img,
+body nav .navbar-nav .categ-item .categItem-content .categ-5 img,
+* nav .navbar-nav .categ-item .categItem-content .categ-1 img,
+* nav .navbar-nav .categ-item .categItem-content .categ-2 img,
+* nav .navbar-nav .categ-item .categItem-content .categ-3 img,
+* nav .navbar-nav .categ-item .categItem-content .categ-4 img,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 img {
+  width: 100px;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-1 span a,
+body nav .navbar-nav .categ-item .categItem-content .categ-2 span a,
+body nav .navbar-nav .categ-item .categItem-content .categ-3 span a,
+body nav .navbar-nav .categ-item .categItem-content .categ-4 span a,
+body nav .navbar-nav .categ-item .categItem-content .categ-5 span a,
+* nav .navbar-nav .categ-item .categItem-content .categ-1 span a,
+* nav .navbar-nav .categ-item .categItem-content .categ-2 span a,
+* nav .navbar-nav .categ-item .categItem-content .categ-3 span a,
+* nav .navbar-nav .categ-item .categItem-content .categ-4 span a,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 span a {
+  font-size: 15px;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-1 span a:hover,
+body nav .navbar-nav .categ-item .categItem-content .categ-2 span a:hover,
+body nav .navbar-nav .categ-item .categItem-content .categ-3 span a:hover,
+body nav .navbar-nav .categ-item .categItem-content .categ-4 span a:hover,
+body nav .navbar-nav .categ-item .categItem-content .categ-5 span a:hover,
+* nav .navbar-nav .categ-item .categItem-content .categ-1 span a:hover,
+* nav .navbar-nav .categ-item .categItem-content .categ-2 span a:hover,
+* nav .navbar-nav .categ-item .categItem-content .categ-3 span a:hover,
+* nav .navbar-nav .categ-item .categItem-content .categ-4 span a:hover,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 span a:hover {
+  color: #282828 !important;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-5,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 {
+  border-right: none;
+}
+
+body nav .navbar-nav .categ-item .categItem-content .categ-5 span:first-child,
+* nav .navbar-nav .categ-item .categItem-content .categ-5 span:first-child {
+  font-size: 50px;
+  font-weight: 200px;
+}
+
+body nav .navbar-nav .categ-item:hover .categItem-content,
+* nav .navbar-nav .categ-item:hover .categItem-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+body nav .navbar-nav .pages-item .pages-content,
+* nav .navbar-nav .pages-item .pages-content {
+  display: none;
+  min-height: 200px;
+  width: 250px;
+  background: #282828;
+  position: absolute;
+  top: 45px;
+  padding: 20px;
+}
+
+body nav .navbar-nav .pages-item .pages-content ul li,
+* nav .navbar-nav .pages-item .pages-content ul li {
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+body nav .navbar-nav .pages-item .pages-content ul li a:hover,
+* nav .navbar-nav .pages-item .pages-content ul li a:hover {
+  color: white !important;
+}
+
+body nav .navbar-nav .pages-item .pages-content ul li a sup,
+* nav .navbar-nav .pages-item .pages-content ul li a sup {
+  background: white;
+  color: #282828;
+  border-radius: 5px;
+  padding: 1px;
+  font-size: 10px;
+}
+
+body nav .navbar-nav .pages-item:hover .pages-content,
+* nav .navbar-nav .pages-item:hover .pages-content {
+  display: flex;
+}
+
+body nav .navbar-nav .navbar-toggler,
+* nav .navbar-nav .navbar-toggler {
+  color: #686868;
+  border: none;
+}
+
+body nav .icons-bar,
+* nav .icons-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: auto;
+}
+
+body nav .icons-bar a,
+* nav .icons-bar a {
+  margin-right: 15px;
+}
+
+body nav .icons-bar a i,
+* nav .icons-bar a i {
+  font-size: 20px;
+  text-decoration: none;
+  color: #686868 !important;
+  transition: .4s;
+}
+
+body nav .icons-bar a i:hover,
+* nav .icons-bar a i:hover {
+  color: #111111 !important;
+}
+
+body header,
+* header {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+body header .slick-slider,
+* header .slick-slider {
+  width: 100%;
+  height: 100%;
+}
+
+body header .slick-slider .slide,
+* header .slick-slider .slide {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body header .slick-slider .slide .first-slide,
+body header .slick-slider .slide .second-slide,
+body header .slick-slider .slide .third-slide,
+* header .slick-slider .slide .first-slide,
+* header .slick-slider .slide .second-slide,
+* header .slick-slider .slide .third-slide {
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body header .slick-slider .slide .first-slide h1,
+body header .slick-slider .slide .first-slide p,
+body header .slick-slider .slide .second-slide h1,
+body header .slick-slider .slide .second-slide p,
+body header .slick-slider .slide .third-slide h1,
+body header .slick-slider .slide .third-slide p,
+* header .slick-slider .slide .first-slide h1,
+* header .slick-slider .slide .first-slide p,
+* header .slick-slider .slide .second-slide h1,
+* header .slick-slider .slide .second-slide p,
+* header .slick-slider .slide .third-slide h1,
+* header .slick-slider .slide .third-slide p {
+  margin-left: 100px;
+}
+
+body header .slick-slider .slide .first-slide h1,
+body header .slick-slider .slide .second-slide h1,
+body header .slick-slider .slide .third-slide h1,
+* header .slick-slider .slide .first-slide h1,
+* header .slick-slider .slide .second-slide h1,
+* header .slick-slider .slide .third-slide h1 {
+  color: #282828;
+  max-width: 425px;
+}
+
+body header .slick-slider .slide .first-slide p,
+body header .slick-slider .slide .second-slide p,
+body header .slick-slider .slide .third-slide p,
+* header .slick-slider .slide .first-slide p,
+* header .slick-slider .slide .second-slide p,
+* header .slick-slider .slide .third-slide p {
+  color: #a0a0a0;
+  width: 60px;
+  border-bottom: 1px solid #a0a0a0;
+}
+
+body header .slick-slider .slide .first-slide,
+* header .slick-slider .slide .first-slide {
+  background-image: url(../img/slide-1.jpg);
+  background-position: center;
+}
+
+body header .slick-slider .slide .second-slide,
+* header .slick-slider .slide .second-slide {
+  background: url(../img/slide-2.jpg);
+  background-position: center;
+}
+
+body header .slick-slider .slide .third-slide,
+* header .slick-slider .slide .third-slide {
+  background: url(../img/slide-3.jpg);
+  background-position: center;
+}
+
+body header .slick-slider .slick-dots,
+* header .slick-slider .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 200px;
+  text-align: left;
+  width: auto;
+}
+
+body header .slick-slider .slick-dots li,
+* header .slick-slider .slick-dots li {
+  margin: 0;
+}
+
+body header .slick-slider .slick-dots li button:before,
+* header .slick-slider .slick-dots li button:before {
+  font-size: 10px;
+  color: #aaa;
+  width: 15px;
+  height: 15px;
+  line-height: 17px;
+}
+
+body header .slick-slider .slick-dots .slick-active button::before,
+* header .slick-slider .slick-dots .slick-active button::before {
+  font-size: 5px;
+  color: transparent;
+  border: 2px solid #dc9814;
+  border-radius: 50%;
+}
+
+body header .slick-slider .slick-prev,
+body header .slick-slider .slick-next,
+* header .slick-slider .slick-prev,
+* header .slick-slider .slick-next {
+  color: black;
+  opacity: 0;
+  z-index: 15;
+  width: 40px;
+  height: 40px;
+}
+
+body header .slick-slider .slick-prev:before,
+body header .slick-slider .slick-next:before,
+* header .slick-slider .slick-prev:before,
+* header .slick-slider .slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f053";
+  font-size: 40px;
+  color: black;
+  transition: .5s;
+}
+
+body header .slick-slider .slick-prev:hover:before,
+body header .slick-slider .slick-next:hover:before,
+* header .slick-slider .slick-prev:hover:before,
+* header .slick-slider .slick-next:hover:before {
+  color: #dc9814;
+}
+
+body header .slick-slider .slick-prev,
+* header .slick-slider .slick-prev {
+  left: 35px;
+}
+
+body header .slick-slider .slick-next,
+* header .slick-slider .slick-next {
+  right: 35px;
+}
+
+body header .slick-slider .slick-next:before,
+* header .slick-slider .slick-next:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f054";
+}
+
+body header .slick-slider .slick-disabled,
+* header .slick-slider .slick-disabled {
+  cursor: default;
+}
+
+body header .slick-slider .slick-disabled::before,
+* header .slick-slider .slick-disabled::before {
+  display: none;
+}
+
+body section,
+* section {
+  width: 100%;
+  height: auto;
+}
+
+body section .head-section,
+* section .head-section {
+  height: 10%;
+  width: 100%;
+}
+
+body section .head-section .left-side-head,
+* section .head-section .left-side-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body section .head-section .left-side-head p:first-child a,
+* section .head-section .left-side-head p:first-child a {
+  color: #dc9814;
+}
+
+body section .head-section .left-side-head p a,
+* section .head-section .left-side-head p a {
+  font-size: 17px;
+  color: #686868;
+  transition: 0.5s;
+}
+
+body section .head-section .left-side-head p a:hover,
+* section .head-section .left-side-head p a:hover {
+  text-decoration: none;
+  color: #dc9814;
+}
+
+body section .head-section .left-side-head span,
+* section .head-section .left-side-head span {
+  color: #686868;
+}
+
+body section .head-section .right-side-head,
+* section .head-section .right-side-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+body section .head-section .right-side-head p a,
+* section .head-section .right-side-head p a {
+  font-size: 17px;
+  color: #686868;
+  transition: 0.5s;
+}
+
+body section .head-section .right-side-head p a:hover,
+* section .head-section .right-side-head p a:hover {
+  text-decoration: none;
+  color: #dc9814;
+}
+
+body section .head-section .right-side-head .slash,
+* section .head-section .right-side-head .slash {
+  color: #686868;
+}
+
+body section .head-section .right-side-head .toggleSearch,
+* section .head-section .right-side-head .toggleSearch {
+  font-size: 17px;
+  color: #686868;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+body section .head-section .right-side-head .toggleSearch:hover,
+* section .head-section .right-side-head .toggleSearch:hover {
+  text-decoration: none;
+  color: #dc9814;
+}
+
+body section .search-part,
+* section .search-part {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body section .search-part form,
+* section .search-part form {
+  width: 100%;
+}
+
+body section .search-part form input,
+* section .search-part form input {
+  width: 100%;
+  height: 50px;
+  padding: 20px 20px 20px 0;
+  border: none;
+  font-size: 30px;
+  transition: .5s;
+}
+
+body section .search-part form input:focus,
+* section .search-part form input:focus {
+  outline: none;
+}
+
+body section .search-part form input::placeholder,
+* section .search-part form input::placeholder {
+  color: #a0a0a0;
+  opacity: 0.7;
+}
+
+body section .search-part .closeSearch,
+* section .search-part .closeSearch {
+  font-size: 25px;
+  color: #aaaaaa;
+  cursor: pointer;
+  transition: .5s;
+  display: flex;
+  justify-content: flex-end;
+}
+
+body section .search-part .closeSearch:hover,
+* section .search-part .closeSearch:hover {
+  color: #686868;
+}
+
+body section .card-1,
+body section .card-2,
+body section .card-3,
+body section .card-4,
+body section .card-5,
+body section .card-6,
+body section .card-7,
+body section .card-8,
+body section .card-9,
+body section .card-10,
+body section .card-11,
+body section .card-12,
+body section .card-13,
+body section .card-14,
+body section .card-15,
+body section .card-16,
+* section .card-1,
+* section .card-2,
+* section .card-3,
+* section .card-4,
+* section .card-5,
+* section .card-6,
+* section .card-7,
+* section .card-8,
+* section .card-9,
+* section .card-10,
+* section .card-11,
+* section .card-12,
+* section .card-13,
+* section .card-14,
+* section .card-15,
+* section .card-16 {
+  width: 90%;
+  height: auto;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+body section .card-1 .img-part,
+body section .card-2 .img-part,
+body section .card-3 .img-part,
+body section .card-4 .img-part,
+body section .card-5 .img-part,
+body section .card-6 .img-part,
+body section .card-7 .img-part,
+body section .card-8 .img-part,
+body section .card-9 .img-part,
+body section .card-10 .img-part,
+body section .card-11 .img-part,
+body section .card-12 .img-part,
+body section .card-13 .img-part,
+body section .card-14 .img-part,
+body section .card-15 .img-part,
+body section .card-16 .img-part,
+* section .card-1 .img-part,
+* section .card-2 .img-part,
+* section .card-3 .img-part,
+* section .card-4 .img-part,
+* section .card-5 .img-part,
+* section .card-6 .img-part,
+* section .card-7 .img-part,
+* section .card-8 .img-part,
+* section .card-9 .img-part,
+* section .card-10 .img-part,
+* section .card-11 .img-part,
+* section .card-12 .img-part,
+* section .card-13 .img-part,
+* section .card-14 .img-part,
+* section .card-15 .img-part,
+* section .card-16 .img-part {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+body section .card-1 .img-part .first-img,
+body section .card-2 .img-part .first-img,
+body section .card-3 .img-part .first-img,
+body section .card-4 .img-part .first-img,
+body section .card-5 .img-part .first-img,
+body section .card-6 .img-part .first-img,
+body section .card-7 .img-part .first-img,
+body section .card-8 .img-part .first-img,
+body section .card-9 .img-part .first-img,
+body section .card-10 .img-part .first-img,
+body section .card-11 .img-part .first-img,
+body section .card-12 .img-part .first-img,
+body section .card-13 .img-part .first-img,
+body section .card-14 .img-part .first-img,
+body section .card-15 .img-part .first-img,
+body section .card-16 .img-part .first-img,
+* section .card-1 .img-part .first-img,
+* section .card-2 .img-part .first-img,
+* section .card-3 .img-part .first-img,
+* section .card-4 .img-part .first-img,
+* section .card-5 .img-part .first-img,
+* section .card-6 .img-part .first-img,
+* section .card-7 .img-part .first-img,
+* section .card-8 .img-part .first-img,
+* section .card-9 .img-part .first-img,
+* section .card-10 .img-part .first-img,
+* section .card-11 .img-part .first-img,
+* section .card-12 .img-part .first-img,
+* section .card-13 .img-part .first-img,
+* section .card-14 .img-part .first-img,
+* section .card-15 .img-part .first-img,
+* section .card-16 .img-part .first-img {
+  transition: 0.7s;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+body section .card-1 .img-part .second-img,
+body section .card-2 .img-part .second-img,
+body section .card-3 .img-part .second-img,
+body section .card-4 .img-part .second-img,
+body section .card-5 .img-part .second-img,
+body section .card-6 .img-part .second-img,
+body section .card-7 .img-part .second-img,
+body section .card-8 .img-part .second-img,
+body section .card-9 .img-part .second-img,
+body section .card-10 .img-part .second-img,
+body section .card-11 .img-part .second-img,
+body section .card-12 .img-part .second-img,
+body section .card-13 .img-part .second-img,
+body section .card-14 .img-part .second-img,
+body section .card-15 .img-part .second-img,
+body section .card-16 .img-part .second-img,
+* section .card-1 .img-part .second-img,
+* section .card-2 .img-part .second-img,
+* section .card-3 .img-part .second-img,
+* section .card-4 .img-part .second-img,
+* section .card-5 .img-part .second-img,
+* section .card-6 .img-part .second-img,
+* section .card-7 .img-part .second-img,
+* section .card-8 .img-part .second-img,
+* section .card-9 .img-part .second-img,
+* section .card-10 .img-part .second-img,
+* section .card-11 .img-part .second-img,
+* section .card-12 .img-part .second-img,
+* section .card-13 .img-part .second-img,
+* section .card-14 .img-part .second-img,
+* section .card-15 .img-part .second-img,
+* section .card-16 .img-part .second-img {
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  transition: 0.7s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body section .card-1 .img-part:hover,
+body section .card-2 .img-part:hover,
+body section .card-3 .img-part:hover,
+body section .card-4 .img-part:hover,
+body section .card-5 .img-part:hover,
+body section .card-6 .img-part:hover,
+body section .card-7 .img-part:hover,
+body section .card-8 .img-part:hover,
+body section .card-9 .img-part:hover,
+body section .card-10 .img-part:hover,
+body section .card-11 .img-part:hover,
+body section .card-12 .img-part:hover,
+body section .card-13 .img-part:hover,
+body section .card-14 .img-part:hover,
+body section .card-15 .img-part:hover,
+body section .card-16 .img-part:hover,
+* section .card-1 .img-part:hover,
+* section .card-2 .img-part:hover,
+* section .card-3 .img-part:hover,
+* section .card-4 .img-part:hover,
+* section .card-5 .img-part:hover,
+* section .card-6 .img-part:hover,
+* section .card-7 .img-part:hover,
+* section .card-8 .img-part:hover,
+* section .card-9 .img-part:hover,
+* section .card-10 .img-part:hover,
+* section .card-11 .img-part:hover,
+* section .card-12 .img-part:hover,
+* section .card-13 .img-part:hover,
+* section .card-14 .img-part:hover,
+* section .card-15 .img-part:hover,
+* section .card-16 .img-part:hover {
+  cursor: pointer;
+}
+
+body section .card-1 .img-part:hover .second-img,
+body section .card-2 .img-part:hover .second-img,
+body section .card-3 .img-part:hover .second-img,
+body section .card-4 .img-part:hover .second-img,
+body section .card-5 .img-part:hover .second-img,
+body section .card-6 .img-part:hover .second-img,
+body section .card-7 .img-part:hover .second-img,
+body section .card-8 .img-part:hover .second-img,
+body section .card-9 .img-part:hover .second-img,
+body section .card-10 .img-part:hover .second-img,
+body section .card-11 .img-part:hover .second-img,
+body section .card-12 .img-part:hover .second-img,
+body section .card-13 .img-part:hover .second-img,
+body section .card-14 .img-part:hover .second-img,
+body section .card-15 .img-part:hover .second-img,
+body section .card-16 .img-part:hover .second-img,
+* section .card-1 .img-part:hover .second-img,
+* section .card-2 .img-part:hover .second-img,
+* section .card-3 .img-part:hover .second-img,
+* section .card-4 .img-part:hover .second-img,
+* section .card-5 .img-part:hover .second-img,
+* section .card-6 .img-part:hover .second-img,
+* section .card-7 .img-part:hover .second-img,
+* section .card-8 .img-part:hover .second-img,
+* section .card-9 .img-part:hover .second-img,
+* section .card-10 .img-part:hover .second-img,
+* section .card-11 .img-part:hover .second-img,
+* section .card-12 .img-part:hover .second-img,
+* section .card-13 .img-part:hover .second-img,
+* section .card-14 .img-part:hover .second-img,
+* section .card-15 .img-part:hover .second-img,
+* section .card-16 .img-part:hover .second-img {
+  opacity: 1;
+}
+
+body section .card-1 .img-part:hover .first-img,
+body section .card-2 .img-part:hover .first-img,
+body section .card-3 .img-part:hover .first-img,
+body section .card-4 .img-part:hover .first-img,
+body section .card-5 .img-part:hover .first-img,
+body section .card-6 .img-part:hover .first-img,
+body section .card-7 .img-part:hover .first-img,
+body section .card-8 .img-part:hover .first-img,
+body section .card-9 .img-part:hover .first-img,
+body section .card-10 .img-part:hover .first-img,
+body section .card-11 .img-part:hover .first-img,
+body section .card-12 .img-part:hover .first-img,
+body section .card-13 .img-part:hover .first-img,
+body section .card-14 .img-part:hover .first-img,
+body section .card-15 .img-part:hover .first-img,
+body section .card-16 .img-part:hover .first-img,
+* section .card-1 .img-part:hover .first-img,
+* section .card-2 .img-part:hover .first-img,
+* section .card-3 .img-part:hover .first-img,
+* section .card-4 .img-part:hover .first-img,
+* section .card-5 .img-part:hover .first-img,
+* section .card-6 .img-part:hover .first-img,
+* section .card-7 .img-part:hover .first-img,
+* section .card-8 .img-part:hover .first-img,
+* section .card-9 .img-part:hover .first-img,
+* section .card-10 .img-part:hover .first-img,
+* section .card-11 .img-part:hover .first-img,
+* section .card-12 .img-part:hover .first-img,
+* section .card-13 .img-part:hover .first-img,
+* section .card-14 .img-part:hover .first-img,
+* section .card-15 .img-part:hover .first-img,
+* section .card-16 .img-part:hover .first-img {
+  opacity: 0;
+}
+
+body section .card-1 .txt-part,
+body section .card-2 .txt-part,
+body section .card-3 .txt-part,
+body section .card-4 .txt-part,
+body section .card-5 .txt-part,
+body section .card-6 .txt-part,
+body section .card-7 .txt-part,
+body section .card-8 .txt-part,
+body section .card-9 .txt-part,
+body section .card-10 .txt-part,
+body section .card-11 .txt-part,
+body section .card-12 .txt-part,
+body section .card-13 .txt-part,
+body section .card-14 .txt-part,
+body section .card-15 .txt-part,
+body section .card-16 .txt-part,
+* section .card-1 .txt-part,
+* section .card-2 .txt-part,
+* section .card-3 .txt-part,
+* section .card-4 .txt-part,
+* section .card-5 .txt-part,
+* section .card-6 .txt-part,
+* section .card-7 .txt-part,
+* section .card-8 .txt-part,
+* section .card-9 .txt-part,
+* section .card-10 .txt-part,
+* section .card-11 .txt-part,
+* section .card-12 .txt-part,
+* section .card-13 .txt-part,
+* section .card-14 .txt-part,
+* section .card-15 .txt-part,
+* section .card-16 .txt-part {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+body section .card-1 .txt-part .starred-p,
+body section .card-2 .txt-part .starred-p,
+body section .card-3 .txt-part .starred-p,
+body section .card-4 .txt-part .starred-p,
+body section .card-5 .txt-part .starred-p,
+body section .card-6 .txt-part .starred-p,
+body section .card-7 .txt-part .starred-p,
+body section .card-8 .txt-part .starred-p,
+body section .card-9 .txt-part .starred-p,
+body section .card-10 .txt-part .starred-p,
+body section .card-11 .txt-part .starred-p,
+body section .card-12 .txt-part .starred-p,
+body section .card-13 .txt-part .starred-p,
+body section .card-14 .txt-part .starred-p,
+body section .card-15 .txt-part .starred-p,
+body section .card-16 .txt-part .starred-p,
+* section .card-1 .txt-part .starred-p,
+* section .card-2 .txt-part .starred-p,
+* section .card-3 .txt-part .starred-p,
+* section .card-4 .txt-part .starred-p,
+* section .card-5 .txt-part .starred-p,
+* section .card-6 .txt-part .starred-p,
+* section .card-7 .txt-part .starred-p,
+* section .card-8 .txt-part .starred-p,
+* section .card-9 .txt-part .starred-p,
+* section .card-10 .txt-part .starred-p,
+* section .card-11 .txt-part .starred-p,
+* section .card-12 .txt-part .starred-p,
+* section .card-13 .txt-part .starred-p,
+* section .card-14 .txt-part .starred-p,
+* section .card-15 .txt-part .starred-p,
+* section .card-16 .txt-part .starred-p {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+body section .card-1 .txt-part p a,
+body section .card-2 .txt-part p a,
+body section .card-3 .txt-part p a,
+body section .card-4 .txt-part p a,
+body section .card-5 .txt-part p a,
+body section .card-6 .txt-part p a,
+body section .card-7 .txt-part p a,
+body section .card-8 .txt-part p a,
+body section .card-9 .txt-part p a,
+body section .card-10 .txt-part p a,
+body section .card-11 .txt-part p a,
+body section .card-12 .txt-part p a,
+body section .card-13 .txt-part p a,
+body section .card-14 .txt-part p a,
+body section .card-15 .txt-part p a,
+body section .card-16 .txt-part p a,
+* section .card-1 .txt-part p a,
+* section .card-2 .txt-part p a,
+* section .card-3 .txt-part p a,
+* section .card-4 .txt-part p a,
+* section .card-5 .txt-part p a,
+* section .card-6 .txt-part p a,
+* section .card-7 .txt-part p a,
+* section .card-8 .txt-part p a,
+* section .card-9 .txt-part p a,
+* section .card-10 .txt-part p a,
+* section .card-11 .txt-part p a,
+* section .card-12 .txt-part p a,
+* section .card-13 .txt-part p a,
+* section .card-14 .txt-part p a,
+* section .card-15 .txt-part p a,
+* section .card-16 .txt-part p a {
+  color: #686868;
+}
+
+body section .card-1 .txt-part p a:hover,
+body section .card-2 .txt-part p a:hover,
+body section .card-3 .txt-part p a:hover,
+body section .card-4 .txt-part p a:hover,
+body section .card-5 .txt-part p a:hover,
+body section .card-6 .txt-part p a:hover,
+body section .card-7 .txt-part p a:hover,
+body section .card-8 .txt-part p a:hover,
+body section .card-9 .txt-part p a:hover,
+body section .card-10 .txt-part p a:hover,
+body section .card-11 .txt-part p a:hover,
+body section .card-12 .txt-part p a:hover,
+body section .card-13 .txt-part p a:hover,
+body section .card-14 .txt-part p a:hover,
+body section .card-15 .txt-part p a:hover,
+body section .card-16 .txt-part p a:hover,
+* section .card-1 .txt-part p a:hover,
+* section .card-2 .txt-part p a:hover,
+* section .card-3 .txt-part p a:hover,
+* section .card-4 .txt-part p a:hover,
+* section .card-5 .txt-part p a:hover,
+* section .card-6 .txt-part p a:hover,
+* section .card-7 .txt-part p a:hover,
+* section .card-8 .txt-part p a:hover,
+* section .card-9 .txt-part p a:hover,
+* section .card-10 .txt-part p a:hover,
+* section .card-11 .txt-part p a:hover,
+* section .card-12 .txt-part p a:hover,
+* section .card-13 .txt-part p a:hover,
+* section .card-14 .txt-part p a:hover,
+* section .card-15 .txt-part p a:hover,
+* section .card-16 .txt-part p a:hover {
+  text-decoration: none;
+}
+
+body section .card-1 .txt-part .hidden-a,
+body section .card-2 .txt-part .hidden-a,
+body section .card-3 .txt-part .hidden-a,
+body section .card-4 .txt-part .hidden-a,
+body section .card-5 .txt-part .hidden-a,
+body section .card-6 .txt-part .hidden-a,
+body section .card-7 .txt-part .hidden-a,
+body section .card-8 .txt-part .hidden-a,
+body section .card-9 .txt-part .hidden-a,
+body section .card-10 .txt-part .hidden-a,
+body section .card-11 .txt-part .hidden-a,
+body section .card-12 .txt-part .hidden-a,
+body section .card-13 .txt-part .hidden-a,
+body section .card-14 .txt-part .hidden-a,
+body section .card-15 .txt-part .hidden-a,
+body section .card-16 .txt-part .hidden-a,
+* section .card-1 .txt-part .hidden-a,
+* section .card-2 .txt-part .hidden-a,
+* section .card-3 .txt-part .hidden-a,
+* section .card-4 .txt-part .hidden-a,
+* section .card-5 .txt-part .hidden-a,
+* section .card-6 .txt-part .hidden-a,
+* section .card-7 .txt-part .hidden-a,
+* section .card-8 .txt-part .hidden-a,
+* section .card-9 .txt-part .hidden-a,
+* section .card-10 .txt-part .hidden-a,
+* section .card-11 .txt-part .hidden-a,
+* section .card-12 .txt-part .hidden-a,
+* section .card-13 .txt-part .hidden-a,
+* section .card-14 .txt-part .hidden-a,
+* section .card-15 .txt-part .hidden-a,
+* section .card-16 .txt-part .hidden-a {
+  opacity: 1;
+  transition: 0.2s;
+  display: block;
+}
+
+body section .card-1 .txt-part .hidden-a a,
+body section .card-2 .txt-part .hidden-a a,
+body section .card-3 .txt-part .hidden-a a,
+body section .card-4 .txt-part .hidden-a a,
+body section .card-5 .txt-part .hidden-a a,
+body section .card-6 .txt-part .hidden-a a,
+body section .card-7 .txt-part .hidden-a a,
+body section .card-8 .txt-part .hidden-a a,
+body section .card-9 .txt-part .hidden-a a,
+body section .card-10 .txt-part .hidden-a a,
+body section .card-11 .txt-part .hidden-a a,
+body section .card-12 .txt-part .hidden-a a,
+body section .card-13 .txt-part .hidden-a a,
+body section .card-14 .txt-part .hidden-a a,
+body section .card-15 .txt-part .hidden-a a,
+body section .card-16 .txt-part .hidden-a a,
+* section .card-1 .txt-part .hidden-a a,
+* section .card-2 .txt-part .hidden-a a,
+* section .card-3 .txt-part .hidden-a a,
+* section .card-4 .txt-part .hidden-a a,
+* section .card-5 .txt-part .hidden-a a,
+* section .card-6 .txt-part .hidden-a a,
+* section .card-7 .txt-part .hidden-a a,
+* section .card-8 .txt-part .hidden-a a,
+* section .card-9 .txt-part .hidden-a a,
+* section .card-10 .txt-part .hidden-a a,
+* section .card-11 .txt-part .hidden-a a,
+* section .card-12 .txt-part .hidden-a a,
+* section .card-13 .txt-part .hidden-a a,
+* section .card-14 .txt-part .hidden-a a,
+* section .card-15 .txt-part .hidden-a a,
+* section .card-16 .txt-part .hidden-a a {
+  color: #282828;
+}
+
+body section .card-1 .txt-part .left-a,
+body section .card-2 .txt-part .left-a,
+body section .card-3 .txt-part .left-a,
+body section .card-4 .txt-part .left-a,
+body section .card-5 .txt-part .left-a,
+body section .card-6 .txt-part .left-a,
+body section .card-7 .txt-part .left-a,
+body section .card-8 .txt-part .left-a,
+body section .card-9 .txt-part .left-a,
+body section .card-10 .txt-part .left-a,
+body section .card-11 .txt-part .left-a,
+body section .card-12 .txt-part .left-a,
+body section .card-13 .txt-part .left-a,
+body section .card-14 .txt-part .left-a,
+body section .card-15 .txt-part .left-a,
+body section .card-16 .txt-part .left-a,
+* section .card-1 .txt-part .left-a,
+* section .card-2 .txt-part .left-a,
+* section .card-3 .txt-part .left-a,
+* section .card-4 .txt-part .left-a,
+* section .card-5 .txt-part .left-a,
+* section .card-6 .txt-part .left-a,
+* section .card-7 .txt-part .left-a,
+* section .card-8 .txt-part .left-a,
+* section .card-9 .txt-part .left-a,
+* section .card-10 .txt-part .left-a,
+* section .card-11 .txt-part .left-a,
+* section .card-12 .txt-part .left-a,
+* section .card-13 .txt-part .left-a,
+* section .card-14 .txt-part .left-a,
+* section .card-15 .txt-part .left-a,
+* section .card-16 .txt-part .left-a {
+  position: absolute;
+  left: -10px;
+  bottom: -15px;
+  z-index: 20;
+  opacity: 0;
+  transition: 0.2s ease;
+  width: auto;
+}
+
+body section .card-1 .txt-part .left-a a,
+body section .card-2 .txt-part .left-a a,
+body section .card-3 .txt-part .left-a a,
+body section .card-4 .txt-part .left-a a,
+body section .card-5 .txt-part .left-a a,
+body section .card-6 .txt-part .left-a a,
+body section .card-7 .txt-part .left-a a,
+body section .card-8 .txt-part .left-a a,
+body section .card-9 .txt-part .left-a a,
+body section .card-10 .txt-part .left-a a,
+body section .card-11 .txt-part .left-a a,
+body section .card-12 .txt-part .left-a a,
+body section .card-13 .txt-part .left-a a,
+body section .card-14 .txt-part .left-a a,
+body section .card-15 .txt-part .left-a a,
+body section .card-16 .txt-part .left-a a,
+* section .card-1 .txt-part .left-a a,
+* section .card-2 .txt-part .left-a a,
+* section .card-3 .txt-part .left-a a,
+* section .card-4 .txt-part .left-a a,
+* section .card-5 .txt-part .left-a a,
+* section .card-6 .txt-part .left-a a,
+* section .card-7 .txt-part .left-a a,
+* section .card-8 .txt-part .left-a a,
+* section .card-9 .txt-part .left-a a,
+* section .card-10 .txt-part .left-a a,
+* section .card-11 .txt-part .left-a a,
+* section .card-12 .txt-part .left-a a,
+* section .card-13 .txt-part .left-a a,
+* section .card-14 .txt-part .left-a a,
+* section .card-15 .txt-part .left-a a,
+* section .card-16 .txt-part .left-a a {
+  color: #282828;
+  padding-bottom: 2px;
+  border-bottom: 1px solid  #686868;
+}
+
+body section .card-1:hover .hidden-a,
+body section .card-2:hover .hidden-a,
+body section .card-3:hover .hidden-a,
+body section .card-4:hover .hidden-a,
+body section .card-5:hover .hidden-a,
+body section .card-6:hover .hidden-a,
+body section .card-7:hover .hidden-a,
+body section .card-8:hover .hidden-a,
+body section .card-9:hover .hidden-a,
+body section .card-10:hover .hidden-a,
+body section .card-11:hover .hidden-a,
+body section .card-12:hover .hidden-a,
+body section .card-13:hover .hidden-a,
+body section .card-14:hover .hidden-a,
+body section .card-15:hover .hidden-a,
+body section .card-16:hover .hidden-a,
+* section .card-1:hover .hidden-a,
+* section .card-2:hover .hidden-a,
+* section .card-3:hover .hidden-a,
+* section .card-4:hover .hidden-a,
+* section .card-5:hover .hidden-a,
+* section .card-6:hover .hidden-a,
+* section .card-7:hover .hidden-a,
+* section .card-8:hover .hidden-a,
+* section .card-9:hover .hidden-a,
+* section .card-10:hover .hidden-a,
+* section .card-11:hover .hidden-a,
+* section .card-12:hover .hidden-a,
+* section .card-13:hover .hidden-a,
+* section .card-14:hover .hidden-a,
+* section .card-15:hover .hidden-a,
+* section .card-16:hover .hidden-a {
+  opacity: 0;
+}
+
+body section .card-1:hover .left-a,
+body section .card-2:hover .left-a,
+body section .card-3:hover .left-a,
+body section .card-4:hover .left-a,
+body section .card-5:hover .left-a,
+body section .card-6:hover .left-a,
+body section .card-7:hover .left-a,
+body section .card-8:hover .left-a,
+body section .card-9:hover .left-a,
+body section .card-10:hover .left-a,
+body section .card-11:hover .left-a,
+body section .card-12:hover .left-a,
+body section .card-13:hover .left-a,
+body section .card-14:hover .left-a,
+body section .card-15:hover .left-a,
+body section .card-16:hover .left-a,
+* section .card-1:hover .left-a,
+* section .card-2:hover .left-a,
+* section .card-3:hover .left-a,
+* section .card-4:hover .left-a,
+* section .card-5:hover .left-a,
+* section .card-6:hover .left-a,
+* section .card-7:hover .left-a,
+* section .card-8:hover .left-a,
+* section .card-9:hover .left-a,
+* section .card-10:hover .left-a,
+* section .card-11:hover .left-a,
+* section .card-12:hover .left-a,
+* section .card-13:hover .left-a,
+* section .card-14:hover .left-a,
+* section .card-15:hover .left-a,
+* section .card-16:hover .left-a {
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  opacity: 1;
+}
+
+body section .btn-row button,
+* section .btn-row button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  color: #282828;
+  transition: .5s;
+}
+
+body section .btn-row button:hover,
+* section .btn-row button:hover {
+  color: #686868;
+}
+
+body footer,
+* footer {
+  width: 100%;
+  height: auto;
+  background-color: #282828;
+  padding: 20px 0;
+}
+
+body footer .left-foot,
+* footer .left-foot {
+  width: 70%;
+  height: auto;
+}
+
+body footer .left-foot ul,
+* footer .left-foot ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+body footer .left-foot ul li,
+* footer .left-foot ul li {
+  margin-right: 10px;
+  list-style: none;
+  padding: 10px 0;
+  color: #aaaaaa;
+}
+
+body footer .left-foot ul li a,
+* footer .left-foot ul li a {
+  color: #aaaaaa;
+  transition: 0.5s;
+}
+
+body footer .left-foot ul li a:hover,
+* footer .left-foot ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body footer .right-foot,
+* footer .right-foot {
+  width: 10%;
+  height: auto;
+}
+
+body footer .right-foot ul,
+* footer .right-foot ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+body footer .right-foot ul li,
+* footer .right-foot ul li {
+  margin-right: 15px;
+  list-style: none;
+}
+
+body footer .right-foot ul li a,
+* footer .right-foot ul li a {
+  color: #aaaaaa;
+  transition: .5s;
+}
+
+body footer .right-foot ul li a:hover,
+* footer .right-foot ul li a:hover {
+  color: white;
+  text-decoration: none;
+}

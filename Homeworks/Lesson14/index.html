@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+        <!-- Jquery -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+    
+
+
+    <!-- Slick slider JS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+
+        <div class="container flex-nowrap">
+
+
+
+            <button class="navbar-toggler " id="navbarToggle" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse col-lg-5 col-md-12 col-sm-12 col-12 position-absolute bg-white"
+                id="navbarTogglerDemo03">
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item shop-item">
+                        <a class="nav-link shop-link" href="#">Shop <span class="sr-only">(current)</span></a>
+                        <span class="d-lg-none d-xl-none">+</span>
+                        <div class="shopItem-content">
+                            <div class="shopItem-content1">
+                                <p>Shop catalog </p>
+                                <ul>
+                                    <li><a href="">Shop – Categories Grid</a></li>
+                                    <li><a href="">Shop – Fullscreen</a></li>
+                                    <li><a href="">
+                                            Shop – Header Search</a></li>
+                                    <li><a href="">Shop – Infinite Scroll</a></li>
+                                    <li><a href="">Shop – Masonry Grid</a></li>
+                                    <li><a href="">Shop – Menu Thumbnails <sup>NEW</sup></a></li>
+                                    <li><a href="">Shop – Overlay</a></li>
+                                    <li><a href="">Shop – Pagination</a></li>
+                                    <li><a href="">Shop – Popup Filters</a></li>
+                                    <li><a href="">Shop – Sidebar</a></li>
+                                </ul>
+
+                                <p>Product Layouts</p>
+                                <ul>
+                                    <li><a href="">No Background</a></li>
+                                    <li><a href="">Swatches & Labels <sup>NEW</sup> </a></li>
+                                    <li><a href="">Extended Description</a></li>
+                                    <li><a href="">Gallery – Grid</a></li>
+                                    <li><a href="">Gallery – Expanded <sup>NEW</sup> </a></li>
+                                    <li><a href="">Gallery – Horizontal</a></li>
+                                    <li><a href="">Gallery – Scrolling</a></li>
+                                    <li><a href="">Gallery – Scattered</a></li>
+                                    <li><a href="">Featured Video</a></li>
+                                    <li><a href="">Image Zoom</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="shopItem-content2">
+                                <p>Product Types</p>
+                                <ul>
+                                    <li><a href="">Simple</a></li>
+                                    <li><a href="">Variable</a></li>
+                                    <li><a href="">Grouped</a></li>
+                                    <li><a href="">External/AFfilliate</a></li>
+                                    <li><a href="">Out of stock</a></li>
+                                </ul>
+
+                                <p> Shop pages </p>
+                                <ul>
+                                    <li><a href="">Cart</a></li>
+                                    <li><a href="">Checkout</a></li>
+                                    <li><a href="">Order Tracking</a></li>
+                                    <li><a href=""> My Account</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item categ-item">
+                        <a class="nav-link" href="#">Categories <sup>NEW</sup></a>
+                        <span class="d-lg-none d-xl-none">+</span>
+                        <div class="categItem-content">
+                            <div class="categ-1">
+                                <img src="img/submenu-1.jpg" alt="">
+                                <span><a href="">Bags & Bagpacks</a></span>
+                            </div>
+                            <div class="categ-2">
+                                <img src="img/submenu-2.jpg" alt="">
+                                <span><a href="">Decoration</a></span>
+                            </div>
+                            <div class="categ-3">
+                                <img src="img/submenu-3.jpg" alt="">
+                                <span><a href="">Essentials</a></span>
+                            </div>
+                            <div class="categ-4">
+                                <img src="img/submenu-4.jpg" alt="">
+                                <span><a href="">Interior</a></span>
+                            </div>
+                            <div class="categ-5">
+                                <span> +</span>
+                                <span><a href="">Shop all</a></span>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item pages-item">
+                        <a class="nav-link " href="#">Pages</a>
+                        <span class="d-lg-none d-xl-none">+</span>
+                        <div class="pages-content">
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href=""> Blog</a></li>
+                                <li><a href="">Blog – Classic + Sidebar</a></li>
+                                <li><a href="">Blog – List</a></li>
+                                <li><a href="">Blog – Infinite Load <sup>NEW</sup></a></li>
+                                <li><a href="">Blog – Single Post</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Contact – Form</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Portfolio – Single</a></li>
+                                <li><a href="">404</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Elements</a>
+                        <span class="d-lg-none d-xl-none">+</span>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-lg-none d-xl-none bg-white">
+                    <li class="nav-item" style="height: 40px;color: #686868;"><a href="">Sign in</a></li>
+                    <li class="nav-item" style="height: 40px;"><a href="">Wishlist</a></li>
+                </ul>
+
+                <ul class="icons-bar mr-auto mt-3 ml-0 pt-lg-0 d-lg-none d-xl-none bg-white">
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="mid-side-bar col-lg-3 col-md-4 col-sm-5 col-5">
+                <img src="img/dark-logo.png" alt="">
+            </div>
+
+            <div class="right-side-bar  col-lg-4 col-md-3 col-sm-3 col-4 justify-content-md-end justify-content-center">
+                <span class="d-none d-lg-block d-xl-block"> <i class="fas fa-search"></i></span>
+                <a href="" class="d-none d-lg-block d-xl-block">Sign in</a>
+                <a href=""> Card <sup> 0</sup></a>
+            </div>
+
+
+        </div>
+
+
+
+    </nav>
+
+    <header>
+        <div class="slick-slider">
+            <div class="slide">
+                <div class="first-slide">
+                    <h1 style="color: #eeeeee;">Contemporary Pendant Lighting </h1>
+                    <p>Interior</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="slide">
+                <div class="second-slide">
+                    <h1>Minimal Rotating Disc Wall Clock</h1>
+                    <p>Decoration</p>
+                </div>
+            </div>
+
+
+            <div class="slide">
+                <div class="third-slide">
+                    <h1>Bamboo Zigzac Pattern Basket </h1>
+                    <p>Essentials</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+    <section>
+        <div class="container">
+            <div class="row head-section justify-content-between ml-auto mr-auto">
+                <div class="left-side-head col-6 col-md-3 col-lg-6 col-xl-6 ">
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"> <a href=""> All</a></p>
+                    <span class="d-xl-flex d-lg-flex d-md-none d-none"> /</span>
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"> <a href=""> Bags & backpacks </a></p>
+                    <span class="d-xl-flex d-lg-flex d-md-none d-none"> /</span>
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"> <a href="">Decoration</a></p>
+                    <span class="d-xl-flex d-lg-flex d-md-none d-none"> /</span>
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"> <a href=""> Essentials</a></p>
+                    <span class="d-xl-flex d-lg-flex d-md-none d-none"> /</span>
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"> <a href=""> Interior</a></p>
+                    <p class="d-xl-none d-lg-none d-md-flex d-flex"> <a href="">Categories</a></p>
+                    <p class="d-xl-none d-lg-none d-md-flex d-flex"> <a href="">Filter</a></p>
+                </div>
+
+                <div class="right-side-head col-5 col-md-3 col-lg-2 col-xl-2">
+                    <p class="d-xl-flex d-lg-flex d-md-none d-none"><a href="">Filter</a></p>
+                    <span class="d-xl-flex d-lg-flex d-md-none d-none slash">/</span>
+                    <p ><span href="" id="toggleSearch"  class="toggleSearch">Search <i class="fas fa-search"></i> </span></p>
+                </div>
+            </div>
+
+         
+                   <div class="row " id="searchBar">
+                       <div class="search-part col-12 ">
+
+                      
+                    <form action="" class="col-11">
+                        <input type="text" placeholder="Search products">
+</form>
+<span class="closeSearch col-1" id="closeSearch"><i class="fas fa-times"></i></span>
+               
+                </div>
+           </div>
+
+            <div class="row section-content mt-5 ml-auto mr-auto">
+                <div class="card-1 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 h-auto">
+                    <div class="img-part h-auto">
+                        <img src="img/card-1.jpg" alt="" class="first-img">
+                        <img src="img/card-1-2.jpg" alt="" class="second-img">
+                    </div>
+                    <div class="txt-part">
+                        <p class="starred-p mt-3">
+                            <span> <a href="">Modern Shell chair </a> </span>
+                            <span><a href=""><i class="far fa-heart"></i></a></span>
+                        </p>
+                        <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                        </p>
+                        <p class="left-a"><a href="" > Show more</a></p>
+                    </div>
+                </div>
+
+                <div class="card-2 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="img-part">
+
+                        
+                        <img src="img/card-2.jpg" alt="" class="first-img">
+                        <img src="img/card-2-2.jpg" alt="" class="second-img">
+
+                        
+                        </div>
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    
+                </div>
+
+                    <div class="card-3  col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+
+                            
+                                <img src="img/card-3.jpg" alt="" class="first-img">
+                                <img src="img/card-3-2.jpg" alt="" class="second-img">
+                            
+                            </div>
+                            <div class="txt-part">
+                                <p class="starred-p mt-3">
+                                    <span> <a href="">Modern Shell chair </a> </span>
+                                    <span><a href=""><i class="far fa-heart"></i></a></span>
+                                </p>
+                                <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                                </p>
+                                <p class="left-a"><a href="" > Show more</a></p>
+                            </div>
+                    </div>
+
+
+                    <div class="card-4 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+<div class="img-part">
+
+                            
+                                <img src="img/card-4.jpg" alt="" class="first-img">
+                                <img src="img/card-4-2.jpg" alt="" class="second-img">
+                            
+                            </div>
+                            <div class="txt-part">
+                                <p class="starred-p mt-3">
+                                    <span> <a href="">Modern Shell chair </a> </span>
+                                    <span><a href=""><i class="far fa-heart"></i></a></span>
+                                </p>
+                                <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                                </p>
+                                <p class="left-a"><a href="" > Show more</a></p>
+                            </div>
+                    </div>
+
+
+                    <div class="card-5 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-5.jpg" alt="" class="first-img">
+                            <img src="img/card-5-2.jpg" alt="" class="second-img">
+
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="card-6 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-6.jpg" alt="" class="first-img">
+                            <img src="img/card-6-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-7 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-7.jpg" alt="" class="first-img">
+                            <img src="img/card-7-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-8 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-8.jpg" alt="" class="first-img">
+                            <img src="img/card-8-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+                    <div class="card-9 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-9.jpg" alt="" class="first-img">
+                            <img src="img/card-9-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-10 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-10.jpg" alt="" class="first-img">
+                            <img src="img/card-10-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-11 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-11.jpg" alt="" class="first-img">
+                            <img src="img/card-11-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-12 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-12.jpg" alt="" class="first-img">
+                            <img src="img/card-12-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-13 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-13.jpg" alt="" class="first-img">
+                            <img src="img/card-13-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-14 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-14.jpg" alt="" class="first-img">
+                            <img src="img/card-14-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-15 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-15.jpg" alt="" class="first-img">
+                            <img src="img/card-15-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-16 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                        <div class="img-part">
+                            <img src="img/card-16.jpg" alt="" class="first-img">
+                            <img src="img/card-16-2.jpg" alt="" class="second-img">
+                        </div>
+                        
+                        <div class="txt-part">
+                            <p class="starred-p mt-3">
+                                <span> <a href="">Modern Shell chair </a> </span>
+                                <span><a href=""><i class="far fa-heart"></i></a></span>
+                            </p>
+                            <p class="hidden-a"><a href="" >$208.00</a>
+                            
+                            </p>
+                            <p class="left-a"><a href="" > Show more</a></p>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="row btn-row col-12 mt-5 mb-5">
+                <button>Load more</button>
+            </div>
+        </div>
+    </section>
+
+ <footer>
+     <div class="container">
+         <div class="row  justify-content-between">
+            
+
+                <div class="left-foot col-12 col-lg-8 col-xl-8 ">
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Order Tracking</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li> By <a href="">Nordicmade</a></li>
+                    </ul>
+                </div>
+                <div class="right-foot col-3 col-lg-2 col-xl-2 ">
+                   <ul>
+                       <li><a href=""><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                       <li><a href=""><i class="fab fa-instagram fa-lg"></i></a></li>
+                       <li><a href=""><i class="fab fa-twitter fa-lg"></i></a></li>
+                   </ul>
+                </div>
+            
+         </div>
+     </div>
+    
+ </footer>
+
+
+
+ 
+
+    <script src="js/main.js"></script>
+   
+</body>
+
+</html>
