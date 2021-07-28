@@ -129,6 +129,11 @@ body nav .navbar-collapse .nav-btn:hover,
   transform: translateY(-3px);
 }
 
+body nav .navbar-collapse .nav-btn:focus,
+* nav .navbar-collapse .nav-btn:focus {
+  outline: none !important;
+}
+
 body header,
 * header {
   margin: 125px 0 0 0;
@@ -174,6 +179,7 @@ body header .left-head .btns-head .btn1-head,
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
   background-color: #335eea;
   color: white;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -187,6 +193,11 @@ body header .left-head .btns-head .btn1-head:hover,
   transform: translateY(-3px);
 }
 
+body header .left-head .btns-head .btn1-head:focus,
+* header .left-head .btns-head .btn1-head:focus {
+  outline: none !important;
+}
+
 body header .left-head .btns-head .btn2-head,
 * header .left-head .btns-head .btn2-head {
   margin-right: 10px;
@@ -198,6 +209,12 @@ body header .left-head .btns-head .btn2-head,
   background-color: rgba(51, 94, 234, 0.1);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
+  cursor: pointer;
+}
+
+body header .left-head .btns-head .btn2-head:focus,
+* header .left-head .btns-head .btn2-head:focus {
+  outline: none !important;
 }
 
 body header .left-head .btns-head .btn2-head:hover,
@@ -383,6 +400,11 @@ body section .section-two .inpt-blank .in-blank form button:hover,
   background-color: #389e80;
   box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-3px);
+}
+
+body section .section-two .inpt-blank .in-blank form button:focus,
+* section .section-two .inpt-blank .in-blank form button:focus {
+  outline: none !important;
 }
 
 body section .section-two .inpt-blank .in-blank:hover,
@@ -808,6 +830,11 @@ body section .section-six .six-part-2 button,
   color: white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   transition: .3s;
+}
+
+body section .section-six .six-part-2 button:focus,
+* section .section-six .six-part-2 button:focus {
+  outline: none !important;
 }
 
 body section .section-six .six-part-2 button:hover,
